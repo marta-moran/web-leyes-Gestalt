@@ -8,11 +8,6 @@ body {
     font-family: Lora;
 }
 
-#menu a:link {
-    color: rgb(63, 63, 63);
-}
-
-
 header >  h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -22,12 +17,6 @@ nav {
     text-align: center;
 }
 
-#menu {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
 nav > ul li {
     list-style-type: none;
 }
@@ -35,6 +24,20 @@ nav > ul li {
 nav > ul > li {
     display: inline-block;
     font-size: 1.2rem;
+}
+
+#menu a:visited{
+    color: rgb(66, 66, 66);
+}
+
+#menu a:link {
+    color: rgb(66, 66, 66);
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 #menu li a {
