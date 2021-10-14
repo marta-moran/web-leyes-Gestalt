@@ -1,57 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://blubber.es/wp-content/themes/blubber_theme/img/FAVICON-BBB.png">
+    <link rel="stylesheet" href="style/styles.css">
     <title>Leyes de la Gestalt</title>
 </head>
+
 <body>
     <header>
         <h1>Leyes de la Gestalt</h1>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Leyes</li> <!--Menú desplegable-->
-            </ul>
-        </nav>
     </header>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="#def">Home</a></li>
+            <li><a href="#">Leyes</a>
+                <ul>
+                    <li><a href="#mas-ley-1">Ley 1</a></li>
+                    <li><a href="#mas-ley-2">Ley 2</a></li>
+                    <li><a href="#mas-ley-3">Ley 3</a></li>
+                    <li><a href="#mas-ley-4">Ley 4</a></li>
+                    <li><a href="#mas-ley-5">Ley 5</a></li>
+                    <li><a href="#mas-ley-6">Ley 6</a></li>
+                    <li><a href="#mas-ley-7">Ley 7</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     <main>
+        <div id="def">
+            <h2>De la psicología al diseño gráfico</h2>
+            <hr>
+            <p> Se trata de una serie de reglas que relacionan los estímulos visuales con lo que estos generan en la
+                mente del que los mira. En su conjunto explican cómo la percepción juega un papel fundamental a la hora
+                de interpretar aquello que vemos, de darle forma mental<br><br>La Teoría de la Gestalt fue gestada a
+                principios del siglo XX por el psicólogo alemán Max Wertheimer y su grupo de acólitos, como línea
+                psicológica contrapuesta al conductismo, teoría que excluía la consciencia subjetiva en el estudio del
+                comportamiento humano, dando mayor importancia al entorno social y cultural</p>
+        </div>
         <div id="general-content">
-            <div id="ley-1">
-                <h2>Ley 1</h2>
-                <p></p>
+            <div class="elemento">
+                <h2>Ley de la proximidad</h2>
+                <p>Los elementos que están próximos entre sí tienden a relacionarse como una sola unidad</p>
+                <span><a href="#mas-ley-1">Ver más</a></span>
             </div>
-            <div id="ley-2">
-                <h2>Ley 2</h2>
-                <p></p>
+            <div class="elemento">
+                <h2>Ley de la semejanza</h2>
+                <p>Los elementos similares son percibidos como una sola unidad.</p>
+                <span><a href="#mas-ley-2">Ver más</a></span>
             </div>
-            <div id="ley-3">
-                <h2>Ley 3</h2>
-                <p></p>
+            <div class="elemento">
+                <h2>Ley de cierre</h2>
+                <p>Los elementos son reconocidos incluso si están inexistentes o incompletos.</p>
+                <span><a href="#mas-ley-3">Ver más</a></span>
             </div>
-            <div id="ley-4">
-                <h2>Ley 4</h2>
-                <p></p>
+            <div class="elemento">
+                <h2>Ley de la continuidad</h2>
+                <p>Los ojos siguen los elementos que se disponen a lo largo de una línea continua. Se percibe como una
+                    unidad.</p>
+                <span><a href="#mas-ley-4">Ver más</a></span>
             </div>
-            <div id="ley-5">
-                <h2>Ley 5</h2>
-                <p></p>
+            <div class="elemento">
+                <h2>Ley figura fondo</h2>
+                <p>Tendencia del ojo humano a ver un objeto separado de lo que le rodea.</p>
+                <span><a href="#mas-ley-5">Ver más</a></span>
             </div>
-            <div id="ley-6">
-                <h2>Ley 6</h2>
-                <p></p>
+            <div class="elemento">
+                <h2>Ley de la pregnancia</h2>
+                <p>Los elementos más simples son los preferidos en el proceso perceptivo.</p>
+                <span><a href="#mas-ley-6">Ver más</a></span>
             </div>
-            <div id="ley-7">
-                <h2>Ley 7</h2>
-                <p></p>
+            <div class="elemento">
+                <h2>Ley del movimiento</h2>
+                <p>Ante un conjunto de elementos percibimos como un todo aquellos que se desplazan a la vez y en la
+                    misma dirección.</p>
+                <span><a href="#mas-ley-7">Ver más</a></span>
             </div>
         </div>
+
+        <article>
+            <div id="leyes-ampliadas">
+                <div id="mas-ley-1">
+                    <h3>Ley de la proximidad</h3>
+                    <hr>
+                    <p>
+                        Este principio describe como tendemos a agrupar formas que están próximas entre sí.
+                        Percibiéndolas como un todo a pesar de que sean elementos separados. Para ello deben compartir
+                        alguna de estas características: Forma, color, tamaño o textura.
+                    </p>
+                </div>
+                <div class="img">
+                    <figure>
+                        <img src="img/foto-proximidad-4.webp" alt="Principio de la proximidad">
+                        <figcaption>Fig 1. Principio de la proximidad</figcaption>
+                    </figure>
+                </div>
+                <div id="mas-ley-2">
+                    <h3>Ley de la semejanza</h3>
+                    <hr>
+                    <p>
+                        Si un diseño está formado por elementos similares, el espectador va a recibir el conjunto como
+                        un patrón, equilibrado y coherente. Esta similitud puede ser de: Forma, color, textura o tamaño.
+                        Si queremos destacar un elemento del diseño, debemos romper este patrón dentro del conjunto.
+                        Este efecto se denomina anomalía.
+                    </p>
+                </div>
+                <div class="img">
+                    <figure>
+                        <img src="img/similaridad.gif" alt="Principio de semejanza" width="400" height="400">
+                        <figcaption>Fig 2. Principio de la semejanza</figcaption>
+                    </figure>
+                </div>
+
+                <div id="mas-ley-3">
+                    <h3>Ley de cierre</h3>
+                    <hr>
+                    <p>
+                        Cuando percibimos una figura que no está cerrada, nuestro cerebro trabajará en completar la
+                        información que falta para trasmitir una forma completa. Esto ocurre porque buscamos la
+                        estabilidad y según la Teoría de la Gestalt, las formas cerradas son más estables.
+                    </p>
+                </div>
+                <div class="img">
+                    <figure>
+                        <img src="img/cierre.jpg" alt="Principio de cierre">
+                        <figcaption>Fig 3. Principio de cierre</figcaption>
+                    </figure>
+                </div>
+
+                <div id="mas-ley-4">
+                    <h3>Ley de la continuidad</h3>
+                    <hr>
+                    <p>
+                        Según este principio, los detalles que mantienen un patrón o dirección tienden a agruparse
+                        juntos como parte de un modelo. Nuestro cerebro percibe elementos continuos aunque éstos estén
+                        interrumpidos entre sí. Este principio posee elementos de cierre, puesto que las partículas
+                        independientes tratan de formar figuras, partiendo del principio de cierre.
+                    </p>
+                </div>
+                <div class="img">
+                    <figure>
+                        <img src="img/continuidad.webp" alt="principio de continuidad">
+                        <figcaption>Fig 4. Principio de la continuidad</figcaption>
+                    </figure>
+                </div>
+
+                <div id="mas-ley-5">
+                    <h3>Ley figura y fondo</h3>
+                    <hr>
+                    <p>
+                        Describe la tendencia del ojo humano a ver un objeto separado de lo que le rodea. Este principio
+                        funciona porque nuestro cerebro no es capaz de tratar un mismo objeto como forma y fondo al
+                        mismo tiempo. Nuestro cerebro quiere ver el objeto en primer plano y el fondo como dos elementos
+                        independientes.
+                    </p>
+                </div>
+                <div class="img">
+                    <figure>
+                        <img src="img/figura-fondo.jpg" alt="Principio figura y fondo">
+                        <figcaption>Fig 5. Principio figura y fondo</figcaption>
+                    </figure>
+                </div>
+
+                <div id="mas-ley-6">
+                    <h3>Ley de la pregnancia</h3>
+                    <hr>
+                    <p>
+                        Esta ley establece que la mente atribuye la mejor forma posible a la percepción. Esta ley se
+                        compone de leyes particulares, ya que la mente emplea varios criterios para determinar cuál
+                        forma es mejor. De ese modo, se puede hablar de la ley del cierre, del contraste, de la
+                        proximidad, de la semejanza, de la continuidad, del movimiento común, entre otros. En las
+                        ilusiones ópticas paradójicas, la mente intenta atribuir formas conocidas a las partes de una
+                        forma desconocida, pero, cuando se ensambla la totalidad, se produce un error
+                    </p>
+                </div>
+                <div class="img">
+                    <figure>
+                        <img src="img/PiernaElefante.gif" width="450" height="350">
+                        <figcaption>Fig 7. Principio figura y fondo</figcaption>
+                    </figure>
+                </div>
+
+                <div id="mas-ley-7">
+                    <h3>Ley del movimiento</h3>
+                    <hr>
+                    <p>
+                        También llamada principio de destino común, implica que los elementos que parecen construir un
+                        patrón en la misma dirección son percibidos como una figura. En igualdad de circunstancias,
+                        nuestro cerebro tiende a percibir como un conjunto aquellos elementos que se mueven
+                        conjuntamente, se mueven del mismo modo o se mueven de forma reposada respecto a otros. Este
+                        principio no puede ser considerado aisladamente, ya que actúa de manera integrada con otros.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta natus quasi quas, maxime
+                        nostrum dicta voluptatum illo necessitatibus repellat architecto in explicabo voluptate quod
+                        temporibus reprehenderit! Veniam autem praesentium nostrum?
+                    </p>
+                </div>
+                <div class="img">
+                    <figure>
+                        <img src="img/movimiento.jpg" alt="Principio del movimiento">
+                        <figcaption>Fig 7. Principio figura y fondo</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </article>
     </main>
     <footer>
-        <span>Marta Morán</span>
-        <address><a href="mailto:martamoranl06@gmail.com" title="Email de Marta Morán">martamoranl06@gmail.com</a></address>
+        <p>Marta Morán</p>
+        <address>
+            <a href="mailto:martamoranl06@gmail.com" title="Email de Marta Morán">martamoranl06@gmail.com</a>
+        </address>
     </footer>
 </body>
+
 </html>
